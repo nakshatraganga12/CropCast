@@ -52,19 +52,19 @@ Rice is India’s most climate-sensitive staple crop. Kharif yield depends on mo
 ---
 
 ## 📁 Repository Structure
-
-data/raw/ # raw DLD + NASA
-data/processed/ # merged panel dataset
-src/ # pipeline scripts
-notebooks/ # exploration + forecasting
-requirements.txt # dependencies
-
-yaml
-Copy code
-
+```txt
+CropCast/
+├── data/
+│   ├── raw/            # raw DLD + NASA data
+│   └── processed/      # merged panel dataset
+├── src/                # pipeline scripts
+├── notebooks/          # exploration + forecasting notebooks
+├── requirements.txt    # dependencies
+└── README.md
+```
 ---
 
-## 🙋‍♀️ Author
+## Author
 
 Nakshatra  
 CropCast Project — 2026
