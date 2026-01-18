@@ -26,7 +26,7 @@ CropCast explores the climate–agriculture nexus by combining satellite-derived
 
 **2. Rainfall Data (NASA POWER)**
 - Source: NASA POWER API
-- Variable: `PRECTOT`
+- Variable: `PRECTOTCORR`
 - Unit: mm/day → converted to mm/season
 - Season: June–September (Kharif)
 
