@@ -38,16 +38,21 @@ CropCast explores the climate–agriculture nexus by combining satellite-derived
 
 ## 🤖 Methods
 
-- State-level rainfall–yield sensitivity
-- Hierarchical clustering of climate exposure
-- ML-based forecasting (Prophet / ARIMA)
-- Shock scenario simulation (drought & excess rainfall)
+- Rainfall anomaly standardization (Z-score)
+- State-level regression (OLS rainfall–yield sensitivity)
+- KMeans clustering of climate exposure profiles
+- Shock scenario analysis (±1 SD rainfall)
 
 ---
 
 ## 🌱 Motivation
 
 Rice is India’s most climate-sensitive staple crop. Kharif yield depends on monsoon rainfall; understanding this dependency supports sustainable agriculture and climate adaptation.
+
+---
+## 📊 Dashboard Preview
+
+
 
 ---
 
