@@ -150,11 +150,10 @@ with c2:
         title="State Clusters (Rain vs Yield Volatility)"
     )
     st.plotly_chart(fig_cluster, use_container_width=True)
-
 # -----------------------------
 # Cluster Interpretation
 # -----------------------------
-st.markdown("## 🧠 What Does This Cluster Mean?")
+st.markdown("## What Does This Cluster Mean?")
 
 cluster_summary = state_summary.groupby("Cluster").agg(
     Avg_Rain_Variability=("Rain_Variability", "mean"),
