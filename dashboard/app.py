@@ -198,3 +198,18 @@ st.dataframe(cluster_summary.style.format({
     "Avg_Yield_Variability": "{:.2f}",
     "Avg_Mean_Yield": "{:.2f}"
 }))
+
+st.markdown(
+    """
+    <div style="font-size:13.5px;">
+        <strong>Methodology Summary</strong>
+        <ul style="margin-top:4px; padding-left:16px;">
+            <li><b>Fixed Effects Regression:</b> State-level fixed effects model controlling for unobserved heterogeneity.</li>
+            <li><b>Rainfall Shock Normalization:</b> Z-score transformation (Rain_Z).</li>
+            <li><b>Model Evaluation:</b> 5-fold cross-validation (R², RMSE).</li>
+            <li><b>Regional Clustering:</b> KMeans on rainfall & yield variability.</li>
+        </ul>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
