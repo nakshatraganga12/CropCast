@@ -52,8 +52,14 @@ Rice is India’s most climate-sensitive staple crop. Kharif yield depends on mo
 ---
 ## 📊 Dashboard Preview
 
+### Main Dashboard View
+![Dashboard Overview](dashboard/assets/dashboard_overview.png)
 
+### Rainfall Sensitivity Metrics
+![Sensitivity Metrics](dashboard/assets/sensitivity_metrics.png)
 
+### Cluster Visualization
+![Cluster Plot](dashboard/assets/cluster_plot.png)
 ---
 
 ## 📁 Repository Structure
