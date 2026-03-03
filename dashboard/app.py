@@ -10,7 +10,7 @@ st.set_page_config(page_title="CropCast", layout="wide")
 # -----------------------------
 # Load Data
 # -----------------------------
-panel = pd.read_csv("/Users/nakshatraganga/Desktop/CropCast/data/processed/merged_panel.csv")
+panel = pd.read_csv("data/processed/merged_panel.csv")
 
 st.title("🌾 CropCast — Climate Sensitivity Explorer")
 st.markdown("State-level rainfall–yield modeling (2000–2019)")
